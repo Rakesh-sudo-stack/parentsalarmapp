@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div{
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    height: 4rem;
+    width: 100%;
+    background: rgb(59, 82, 95);
+    color:#fff;
+    font-size: 2.2rem;
+    font-family: 'Titan One', cursive;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+header i{
+    float:left;
+    border-radius: 50%;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+    color: #fff;
+}
+
+header i:hover{
+    background:rgba(130, 133, 139, 0.863);
+}
+
+.homework-area{
+    height: calc(100% - 4rem);
+    width: 100%;
+    background: rgba(208, 218, 218, 0.856);
+    padding: 2rem 5rem 0 5rem;
+    overflow-y: scroll;
+}
+
+.homework{
+    width: 100%;
+    border: 1px solid rgb(189, 197, 196);
+    border-left: 6px solid rgb(155, 123, 65);
+    background: #fff;
+    font-weight: 800;
+    line-height: 1.8rem;
+    margin-bottom: 3rem;
+}
+
+.date,.time{
+    line-height: 1.4rem;
+    font-size: 0.8rem;
+}
